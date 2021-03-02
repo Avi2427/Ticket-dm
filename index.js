@@ -1,6 +1,6 @@
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 /*
-All Copyright Go To [『CR』亗〆Ť I G E R〆亗#0245 ]
+All Copyright Go To [『CR』亗〆Ť I G E R〆亗#7929]
 Support Server : discord.gg/QA9JjVGq9V
 */
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
@@ -16,7 +16,7 @@ require('http')
 app.listen(() => console.log(`Starting...`));
 app.use('/ping', (req, res) => {
   res.send(new Date());
-});//『CR』亗〆Ť I G E R〆亗#0245
+});//『CR』亗〆Ť I G E R〆亗#7929
 
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
@@ -25,7 +25,7 @@ const client = new Discord.Client();
 const cooldown = new Set();
 const { TOKEN, Prefix, Status, Roomid, Server, D_ROLE } = require('./config');
 client.login(TOKEN).catch(err => console.error(`[ Discord API ] Wrong Token`));
-//『CR』亗〆Ť I G E R〆亗#0245
+//『CR』亗〆Ť I G E R〆亗#7929
 
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
@@ -46,7 +46,7 @@ client.guilds.cache.forEach(guild => {
 if (Server.includes (guild.id)) return;
 else guild.leave();
 });
-});//『CR』亗〆Ť I G E R〆亗#0245
+});//『CR』亗〆Ť I G E R〆亗#7929
 
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
@@ -66,7 +66,7 @@ var emb = new Discord.MessageEmbed()
 .setTimestamp();
 console.log(`${message.author.tag} > ${message.content}`);
 room.send(emb);
-});//『CR』亗〆Ť I G E R〆亗#0245
+});//『CR』亗〆Ť I G E R〆亗#7929
 
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
@@ -202,7 +202,7 @@ var embed = new Discord.MessageEmbed()
 .setTimestamp();
 message.channel.send(embed);
 }
-});
+});//『CR』亗〆Ť I G E R〆亗#7929
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
 client.on("message", message => {  
@@ -212,7 +212,7 @@ setTimeout(() => {
 message.channel.stopTyping();    
 }, Math.random() * (1 - 4) + 1 * 1000);
  }  
-});//『CR』亗〆Ť I G E R〆亗#0245
+});//『CR』亗〆Ť I G E R〆亗#7929
 
 //====[『CR』亗〆Ť I G E R〆亗 ]====\\
 
